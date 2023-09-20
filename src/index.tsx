@@ -1,14 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import Dropdown from "./components/Dropdown/Dropdown";
+import DropdownPage from "./pages/DropdownPage";
 
 const router = createBrowserRouter([
   {
     path: "/dropdown",
-    element: <Dropdown />,
+    element: <DropdownPage />,
   },
 ]);
 
